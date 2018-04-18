@@ -1,0 +1,59 @@
+
+Class SavingsAccount
+java.lang.Object
+  |
+  +--SavingsAccount
+public class SavingsAccount
+extends java.lang.Object
+This class provides some simple services able to be accessed by other classes
+
+Constructor Summary
+SavingsAccount()
+          Constructor which sets initial balance to zero.
+SavingsAccount(int initialBalance)
+          Constructor allowing an initial value to be specified.
+
+Method Summary
+ void	deposit(int howMuch)
+          Deposit an amount.
+ void	greet()
+          Provide a simple text greeting
+ void	showBalance()
+
+ void	withdraw(int howMuch)
+          Withdraw an amount.
+
+Methods inherited from class java.lang.Object
+clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait
+
+
+Constructor Detail
+
+SavingsAccount
+public SavingsAccount()
+Constructor which sets initial balance to zero.
+Recall that no-argument onstructor is automatically supplied only if no other constructors are supplied.
+
+SavingsAccount
+public SavingsAccount(int initialBalance)
+Constructor allowing an initial value to be specified.
+Recall that no-argument onstructor is automatically supplied only if no other constructors are supplied.
+
+Parameters:
+initialBalance - amount in cents for initial account balance
+Method Detail
+greet
+public void greet()
+Provide a simple text greeting
+deposit
+public void deposit(int howMuch)
+Deposit an amount. May be negative---how can we check for this?
+Parameters:
+howMuch - the amount in cents
+withdraw
+public void withdraw(int howMuch)
+Withdraw an amount. May be negative---how can we check for this?
+Parameters:
+howMuch - the amount in cents
+showBalance
+public void showBalance()
